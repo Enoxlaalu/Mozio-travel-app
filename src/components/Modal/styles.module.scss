@@ -1,0 +1,14 @@
+@import 'src/variables';
+
+.modal {
+    display: grid;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 22px 14px;
+
+    @include tablet {
+        padding: 38px 24px;
+        width: 70%;
+        max-width: 734px;
+    }
+}

@@ -1,0 +1,15 @@
+@import 'src/variables';
+
+.errorBoundary {
+    display: grid;
+    grid-auto-rows: 1fr auto;
+    align-items: center;
+    justify-content: center;
+    height: 373px;
+
+    h3 {
+        @include xs-medium;
+
+        color: $purpleDark;
+    }
+}

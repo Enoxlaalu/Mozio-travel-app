@@ -1,0 +1,27 @@
+@import 'src/variables';
+
+.searchFormPage {
+    display: grid;
+
+    @include tablet {
+        padding: 0 56px;
+    }
+}
+
+.formSection {
+    display: grid;
+    grid-column-gap: 10%;
+    grid-row-gap: 44px;
+
+    @include tablet {
+        grid-template-columns: 1fr auto;
+    }
+}
+
+.submit {
+    margin-top: 36px;
+
+    @include tablet {
+        justify-self: center;
+    }
+}

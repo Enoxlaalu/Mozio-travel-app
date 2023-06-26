@@ -1,0 +1,23 @@
+@import 'src/variables.scss';
+
+.label {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    input {
+        outline: none;
+        border-radius: 6px;
+        border: 1px solid $grey;
+        padding: 8px 12px 8px 10px;
+    }
+}
+
+.error input {
+    border-color: $red;
+}

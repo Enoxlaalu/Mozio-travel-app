@@ -1,0 +1,19 @@
+@import 'src/variables';
+
+.resultsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include mobile {
+        padding-top: 8px;
+    }
+
+    @include tablet {
+        align-items: center;
+    }
+
+    [data-component='resultsSection'] {
+        margin: 24px 0 36px;
+    }
+}

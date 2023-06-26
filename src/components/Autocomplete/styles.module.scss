@@ -1,0 +1,15 @@
+@import 'src/variables';
+
+.inputWrapper {
+    position: relative;
+    font-size: 24px;
+}
+
+.endIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+    color: $purpleDark;
+}

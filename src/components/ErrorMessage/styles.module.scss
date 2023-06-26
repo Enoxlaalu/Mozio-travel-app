@@ -1,0 +1,8 @@
+@import 'src/variables.scss';
+
+.errorText {
+    @include xs-medium;
+
+    color: $red;
+    height: 16px;
+}

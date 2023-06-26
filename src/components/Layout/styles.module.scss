@@ -1,0 +1,17 @@
+@import 'src/variables';
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    height: 100vh;
+    background-image: url('src/assets/img/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include tablet {
+        justify-items: center;
+    }
+}

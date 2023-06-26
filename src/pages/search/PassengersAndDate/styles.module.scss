@@ -1,0 +1,21 @@
+@import 'src/variables';
+
+.passengersAndDate {
+    display: grid;
+    grid-column-gap: 24px;
+    align-content: start;
+
+    @include mobile {
+        justify-self: center;
+        grid-template-columns: 1fr 1fr;
+
+        [data-component='numberCounter'] {
+            order: 1;
+        }
+    }
+
+    @include tablet {
+        justify-self: start;
+        grid-template-columns: initial;
+    }
+}

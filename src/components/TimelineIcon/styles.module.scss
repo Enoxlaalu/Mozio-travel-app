@@ -1,0 +1,11 @@
+@import 'src/variables';
+
+svg.icon {
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: $black;
+}
+
+svg.location {
+    color: $red;
+}

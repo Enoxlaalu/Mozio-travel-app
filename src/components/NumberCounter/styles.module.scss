@@ -1,0 +1,48 @@
+@import 'src/variables.scss';
+
+.counter {
+    display: grid;
+    justify-items: start;
+    grid-row-gap: 2px;
+    font-size: 12px;
+    line-height: 16px;
+
+    label {
+        color: $black;
+    }
+
+    .wrapper {
+        display: grid;
+        align-items: center;
+        grid-auto-flow: column;
+        grid-column-gap: 8px;
+        border-radius: 6px;
+        border: 1px solid $grey;
+        padding: 4px 9px;
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $purpleDark;
+            color: $white;
+            border: none;
+            padding: 6px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            svg {
+                font-size: 10px;
+            }
+
+            &.disabled {
+                pointer-events: none;
+                background-color: $purpleLight;
+            }
+        }
+    }
+
+    .error {
+        border-color: $red;
+    }
+}
