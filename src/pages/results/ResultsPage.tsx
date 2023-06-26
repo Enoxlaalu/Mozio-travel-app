@@ -8,7 +8,6 @@ import { IResults } from 'src/pages/results/types'
 import ResultsTimeline from 'src/pages/results/ResultsTimeline/ResultsTimeline'
 import { ICities } from 'src/pages/search/types'
 import { calculateDistances } from 'src/pages/api'
-import { CircularProgress } from '@mui/material'
 import useAsyncError from 'src/hooks/useAsyncError'
 import Spinner from 'src/components/Spinner/Spinner'
 
